@@ -14,6 +14,7 @@
       'data': '../data',
       'config': '../config',
       'map': 'map',
+      'crime': 'crime',
       'appconfig': 'appconfig',
       'eventaggregator': 'eventaggregator',
       'app': 'app'
