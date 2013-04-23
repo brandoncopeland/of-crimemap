@@ -3,7 +3,10 @@ define(['jquery', 'map/mapview'], function ($, MapView) {
 
 	var application = {
 		initialize: function () {
-			console.log('initialized');
+			var mapView = new MapView({
+				el: $('#bigmap')
+			});
+			mapView.render();
 		}
 	};
 
