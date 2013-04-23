@@ -3,13 +3,18 @@
   baseUrl: 'js',
   dir: '../../of-crimemap-build',
   paths: {
-    'jquery': 'lib/jquery-1.8.2',
+    'jquery': 'lib/jquery',
+    'dojo': 'lib/dojo',
+    'dojox': 'lib/dojox',
+    'dijit': 'lib/dijit',
+    'esri': 'lib/esri',
     'underscore': 'lib/underscore',
     'backbone': 'lib/backbone',
     'templates': '../templates',
     'config': '../config',
     'data': '../data',
-    'text': 'plugins/text'
+    'text': 'lib/dojo/text',
+    'ready': 'lib/dojo/domReady'
   },
   shim: {
     'underscore': {
@@ -21,7 +26,10 @@
     }
   },
   modules: [{
-    name: 'app'
+    name: 'app',
+    excludeShallow: [
+      'text!config/appconfig.json'
+    ]
   }],
   removeCombined: false,
   inlineText: true,

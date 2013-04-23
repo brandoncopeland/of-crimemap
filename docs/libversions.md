@@ -5,9 +5,15 @@ Core Libraries
 - jasmine - v1.3.1
 - jQuery - v1.9.1
 - modernizr - v2.6.2
-- require - v2.1.5
+- require - v2.1.5 - not used currently
 - sinon - v1.6.0
 - underscore - v1.4.4
+
+DOJO/ESRI
+---
+
+- ESRI - v3.4
+- DOJO - v1.8.3
 
 Plugins
 ---

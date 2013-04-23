@@ -1,29 +1,29 @@
 (function (require) {
   'use strict';
 
-  require.config({
+  require({
     baseUrl: 'js',
+    parseOnLoad: true,
+    aliases: [
+      ['text', 'dojo/text'],
+      ['ready', 'dojo/domReady']
+    ],
     paths: {
-      'text': 'plugins/text',
       'jquery': 'lib/jquery',
       'underscore': 'lib/underscore',
       'backbone': 'lib/backbone',
+      'esri': 'lib/esri',
       'templates': '../templates',
       'data': '../data',
-      'config': '../config'
+      'config': '../config',
+      'app': 'app'
     },
-    shim: {
-      'underscore': {
-        exports: '_'
-      },
-      'backbone': {
-        deps: [
-          'jquery',
-          'underscore'
-        ],
-        exports: 'Backbone'
-      }
-    }
+    packages: [
+      { name: 'dojo', location: 'lib/dojo' },
+      { name: 'dijit', location: 'lib/dijit' },
+      { name: 'dojox', location: 'lib/dojox' },
+      { name: 'esri', location: 'lib/esri' }
+    ]
   });
 
   require(['app'], function (app) {
