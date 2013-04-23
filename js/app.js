@@ -1,4 +1,4 @@
-define(['jquery'], function ($, esriMap) {
+define(['jquery', 'map/mapview'], function ($, MapView) {
 	'use strict';
 
 	var application = {

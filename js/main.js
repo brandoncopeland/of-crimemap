@@ -10,21 +10,38 @@
     ],
     paths: {
       'jquery': 'lib/jquery',
-      'underscore': 'lib/underscore',
-      'backbone': 'lib/backbone',
-      'esri': 'lib/esri',
       'templates': '../templates',
       'data': '../data',
       'config': '../config',
+      'map': 'map',
+      'appconfig': 'appconfig',
+      'eventaggregator': 'eventaggregator',
       'app': 'app'
     },
-    packages: [
-      { name: 'dojo', location: 'lib/dojo' },
-      { name: 'dijit', location: 'lib/dijit' },
-      { name: 'dojox', location: 'lib/dojox' },
-      { name: 'esri', location: 'lib/esri' }
-    ]
+    packages: [{
+      name: 'dojo',
+      location: 'lib/dojo'
+    }, {
+      name: 'dijit',
+      location: 'lib/dijit'
+    }, {
+      name: 'dojox',
+      location: 'lib/dojox'
+    }, {
+      name: 'esri',
+      location: 'lib/esri'
+    }, {
+      name: 'underscore',
+      location: 'lib',
+      main: 'underscore-amd-min'
+    }, {
+      name: 'backbone',
+      location: 'lib',
+      main: 'backbone-amd-min'
+    }]
   });
+
+  window.define.amd.jQuery = true;
 
   require(['app'], function (app) {
     app.initialize();
