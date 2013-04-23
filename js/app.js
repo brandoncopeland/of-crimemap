@@ -1,4 +1,4 @@
-define(['jquery', 'weather/weathermodel'], function ($, WeatherModel) {
+define(['jquery'], function ($) {
 	'use strict';
 
 	var application = {
