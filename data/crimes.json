@@ -1,16 +1,135 @@
 [{
 	"location": {
-		"x": -95.444084,
-		"y": 29.829424,
-		"description": "2000 Block of Hewitt"
+		"x": -95.450980,
+		"y": 29.824150,
+		"description": "2200 Block of Althea"
 	},
-	"time": "2013-04-21T06:21Z",
+	"time": "2013-04-20T02:05Z",
+	"type": "Driveway Robbery",
+	"gunInvolved": false,
+	"personDescription": "Black male, late 20s, 6' - 6'2, approx 170 lbs",
+	"vehicleDescription": "Early '90s/late 2000's black sedan (Honda or Acura) with low muffler",
+	"notes": "Robber first asked for directions in the driveway and then approached victim with small gun demanding her wallet. The victim's boyfriend heard the noice and openned the front door. Perpetrator discharged gun and left in vehicle.",
+	"additionalLinks": [{
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151609258828659/",
+		"description": "Facebook post by the victim"
+	}]
+}, {
+	"location": {
+		"x": -95.452637,
+		"y": 29.828326,
+		"description": "2300 Block of Chantilly"
+	},
+	"time": "2013-04-10T04:00Z",
 	"type": "Driveway Robbery",
 	"gunInvolved": true,
 	"personDescription": "",
 	"vehicleDescription": "",
 	"additionalLinks": [{
-		"url": "http://www.google.com",
-		"description": "Facebook Comment"
+	}]
+}, {
+	"location": {
+		"x": -95.436119,
+		"y": 29.829858,
+		"description": "1400 Block of Chamboard"
+	},
+	"time": "2013-04-10T02:30Z",
+	"type": "Driveway Robbery",
+	"gunInvolved": true,
+	"personDescription": "",
+	"vehicleDescription": "",
+	"additionalLinks": [{
+	}]
+}, {
+	"location": {
+		"x": -95.436637,
+		"y": 29.830559,
+		"description": "1400 Block of Curtin"
+	},
+	"time": "2013-04-16T03:25Z",
+	"type": "Driveway Robbery",
+	"gunInvolved": true,
+	"personDescription": "",
+	"vehicleDescription": "",
+	"additionalLinks": [{
+	}]
+}, {
+	"location": {
+		"x": -95.449089,
+		"y": 29.830048,
+		"description": "2000 Block of Hewitt"
+	},
+	"time": "2013-04-06T03:05Z",
+	"type": "Driveway Robbery",
+	"gunInvolved": true,
+	"personDescription": "",
+	"vehicleDescription": "",
+	"additionalLinks": [{
+	}]
+}, {
+	"location": {
+		"x": -95.450363,
+		"y": 29.832632,
+		"description": "2100 Block of 43rd"
+	},
+	"time": "2013-04-07T04:09Z",
+	"type": "Store Robbery",
+	"gunInvolved": true,
+	"personDescription": "",
+	"vehicleDescription": "",
+	"additionalLinks": [{
+	}]
+}, {
+	"location": {
+		"x": -95.441864,
+		"y": 29.836414,
+		"description": "1700 Block of Candlelight"
+	},
+	"time": "2013-04-06T04:45Z",
+	"type": "Driveway Robbery",
+	"gunInvolved": true,
+	"personDescription": "",
+	"vehicleDescription": "",
+	"additionalLinks": [{
+	}]
+}, {
+	"location": {
+		"x": -95.435733,
+		"y": 29.836539,
+		"description": "4900 Block of Oak Forest"
+	},
+	"time": "2013-04-11T00:40Z",
+	"type": "Driveway Robbery",
+	"gunInvolved": true,
+	"personDescription": "",
+	"vehicleDescription": ""
+}, {
+	"location": {
+		"x": -95.442976,
+		"y": 29.837637,
+		"description": "4400 Block of Deer Lodge"
+	},
+	"time": "Evening",
+	"type": "Driveway Robbery",
+	"gunInvolved": true,
+	"notes": "Victim thinks she was possibly followed from Kroger.",
+	"additionalLinks": [{
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151611662568659/",
+		"description": "Mentioned in Comments of Facebook Post"
+	}]
+}, {
+	"location": {
+		"x": -95.436872,
+		"y":  29.834050,
+		"description": "1400 Block of Martin"
+	},
+	"time": "2013-04-19T02:00Z",
+	"type": "Home Burglary",
+	"personDescription": "",
+	"vehicleDescription": "",
+	"notes": "Burglars shot window with a BB gun, carefully cracked without setting off the glass break sensor, and unlocked window from the inside. Owner was out of town at the time.",
+	"additionalLinks": [{
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151611018073659/",
+		"description": "Facebook post by the victim"
 	}]
 }]
