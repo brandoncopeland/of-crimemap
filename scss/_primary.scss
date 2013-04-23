@@ -4,6 +4,8 @@ html, body, .app {
 
 body {
 	padding: 10px;
+	background-color: transparent;
+	@include retinabackground('../img/bright_squares', 'png', 297px, 297px);
 }
 
 .app {
@@ -13,6 +15,8 @@ body {
 
 #bigmap {
 	height: 100%;
-	box-shadow: 0 0 10px #BBB;
-	border: solid 1px #888;
+	box-shadow: 0 0 10px -2px #555;
+	border: solid 1px #555;
+	background-color: rgba(187, 187, 187, 0.5);
+	@include retinabackground('../img/bg-map', 'png', 10px, 10px);
 }
