@@ -1,4 +1,4 @@
-define(['jquery', 'underscore', 'backbone', 'dojo/dom-construct', 'esri/map', 'esri/geometry', 'esri/layers/GraphicsLayer', 'esri/graphic', 'map/crimetyperenderer', 'esri/dijit/Popup', 'esri/InfoTemplate', 'appconfig', 'text!map/infowindow.html', 'dojo/date/locale'], function ($, _, Backbone, domConstruct, EsriMap, esriGeometry, GraphicsLayer, Graphic, crimeTypeRenderer, Popup, InfoTemplate, appConfig, infoContentTemplate, locale) {
+define(['jquery', 'underscore', 'backbone', 'esri/map', 'esri/geometry', 'esri/layers/GraphicsLayer', 'esri/graphic', 'map/crimetyperenderer', 'esri/InfoTemplate', 'appconfig', 'text!map/infowindow.html', 'dojo/date/locale'], function ($, _, Backbone, EsriMap, esriGeometry, GraphicsLayer, Graphic, crimeTypeRenderer, InfoTemplate, appConfig, infoContentTemplate, locale) {
 	'use strict';
 
 	var MapView = Backbone.View.extend({
@@ -6,14 +6,11 @@ define(['jquery', 'underscore', 'backbone', 'dojo/dom-construct', 'esri/map', 'e
 			this.listenTo(this.collection, 'reset', this._handleCrimesReset);
 		},
 		render: function () {
-			var popup = new Popup(null, domConstruct.create('div'));
-
 			this._mapWidget = new EsriMap(this.$el.attr('id'), {
 				basemap: appConfig.basemap,
 				extent: new esriGeometry.Extent(appConfig.initialExtent),
 				logo: false,
-				fitExtent: true,
-				infoWindow: popup
+				fitExtent: true
 			});
 
 			this._crimeLayer = new GraphicsLayer({
