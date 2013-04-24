@@ -4,16 +4,16 @@
   dir: '../../of-crimemap-build',
   paths: {
     'jquery': 'lib/jquery',
-    'dojo': 'lib/dojo',
-    'dojox': 'lib/dojox',
-    'dijit': 'lib/dijit',
-    'esri': 'lib/esri',
+    'dojo': 'empty:',
+    'dojox': 'empty:',
+    'dijit': 'empty:',
+    'esri': 'empty:',
     'underscore': 'lib/underscore',
     'backbone': 'lib/backbone',
     'templates': '../templates',
     'config': '../config',
     'data': '../data',
-    'text': 'lib/dojo/text',
+    'text': 'plugins/text',
     'ready': 'lib/dojo/domReady'
   },
   shim: {
