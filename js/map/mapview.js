@@ -34,6 +34,7 @@ define(['jquery', 'underscore', 'backbone', 'dojo/dom-construct', 'esri/map', 'e
 			return _.template(infoContentTemplate, {
 				type: graphic.attributes.type,
 				time: time,
+				gunInvolved: graphic.attributes.gunInvolved,
 				personDescription: graphic.attributes.personDescription,
 				vehicleDescription: graphic.attributes.vehicleDescription,
 				notes: graphic.attributes.notes,

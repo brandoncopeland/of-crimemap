@@ -59,7 +59,7 @@
 	"personDescription": "Black male, 20 - 22 yrs, 5'8 - 5'9, approx 160 lbs",
 	"vehicleDescription": "Victim was approached in their driveway by a man with a pistol demanding money",
 	"additionalLinks": [{
-		"url": "by Nora under map post",
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151610020703659/",
 		"description": "Mentioned in Comments of Facebook Post"
 	}]
 }, {
@@ -84,7 +84,7 @@
 	"vehicleDescription": "White 4-door car",
 	"notes": "Couple was approached in their driveway by a man with a pistol threatening to shoot.",
 	"additionalLinks": [{
-		"url": "by Nora under map post",
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151610020703659/",
 		"description": "Mentioned in Comments of Facebook Post"
 	}]
 }, {
@@ -102,7 +102,7 @@
 		"y": 29.837637,
 		"description": "4400 Block of Deer Lodge"
 	},
-	"time": "Evening",
+	"time": "Wednesday, April 17th",
 	"type": "Driveway Robbery",
 	"gunInvolved": true,
 	"notes": "Victim thinks she was possibly followed from Kroger.",
@@ -133,7 +133,7 @@
 	"type": "Home Burglary",
 	"notes": "Entered through back window. Took laptop.",
 	"additionalLinks": [{
-		"url": "Another Break-in at the corner of Glebe and Viking...",
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151612293938659/",
 		"description": "Facebook Post"
 	}]
 }, {
@@ -142,11 +142,11 @@
 		"y": 29.833948,
 		"description": "5300 Block of De Milo"
 	},
-	"time": "Night",
+	"time": "Overnight, Monday, April 22nd",
 	"type": "Car Break-in",
 	"notes": "Attempted to pry open passenger side vent window unsuccessfully and left.",
 	"additionalLinks": [{
-		"url": "Michael Duane Schumacher",
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151612261568659/",
 		"description": "Facebook Post"
 	}]
 }, {
@@ -159,7 +159,7 @@
 	"type": "Car Break-in",
 	"notes": "Entered car by breaking drive-side rear window.",
 	"additionalLinks": [{
-		"url": "Robin Babin",
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151607917388659/",
 		"description": "Facebook Post"
 	}]
 }, {
@@ -174,7 +174,7 @@
 	"vehicleDescripton": "Black Acura, dark tinted windows, chrome wheels",
 	"notes": "Vehicle followed homeowner into driveway, when owner reversed, and proceeded to follow suspect.",
 	"additionalLinks": [{
-		"url": "Ok...I am the person that was involved.. ",
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151606019113659/",
 		"description": "Facebook Post"
 	}, {
 		"url": "https://oakforestcom.nextdoor.com/news_feed/?post=1227356",
@@ -186,7 +186,7 @@
 		"y": 29.826693,
 		"description": "2300 Block of Hialeh"
 	},
-	"time": "Day",
+	"time": "Daytime Work Hours, Tuesday, April 16th",
 	"type": "Home Burglary",
 	"notes": "Suspect entered through back door, wrecked house, and destroyed alarm.",
 	"additionalLinks": [{
@@ -220,5 +220,18 @@
 	"additionalLinks": [{
 		"url": "https://oakforestcom.nextdoor.com/news_feed/?post=1182554",
 		"description": "Nextdoor Post"
+	}]
+}, {
+	"location": {
+		"x": -95.445096,
+		"y": 29.83554,
+		"description": "1800 Block of Viking"
+	},
+	"time": "Weekend of March 30th",
+	"type": "Home Burglary",
+	"notes": "Suspects entered through backdoor while family was away. Took mostly electronics.",
+	"additionalLinks": [{
+		"url": "https://www.facebook.com/groups/201375163658/permalink/10151578745003659/",
+		"description": "Facebook Post"
 	}]
 }]

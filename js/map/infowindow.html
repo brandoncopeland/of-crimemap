@@ -1,5 +1,10 @@
 <p><%= type %></p>
 <p><%= time %></p>
+<% if (gunInvolved) { %>
+<div>
+	<p>Confirmed gun involved</p>
+</div>
+<% } %>
 <% if (personDescription) { %>
 <div>
 	<h3>Description of Suspect</h3>
