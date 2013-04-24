@@ -343,6 +343,7 @@ body {
   min-height: 400px; }
 
 #bigmap {
+  position: relative;
   height: 100%;
   box-shadow: 0 0 10px -2px #555555;
   border: solid 1px #555;
@@ -375,3 +376,32 @@ body {
     padding: 0; }
     .esriPopup .contentPane div ul li {
       margin-top: 3px; }
+
+.legend {
+  zoom: 1;
+  color: #fff;
+  opacity: 0.9;
+  background-color: #444;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 1000;
+  box-shadow: 0 0 5px #555; }
+  .legend:before, .legend:after {
+    content: "";
+    display: table; }
+  .legend:after {
+    clear: both; }
+  .legend .source {
+    margin-top: 8px; }
+  .legend span.drivewaysymbol {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+    height: 14px;
+    width: 14px;
+    border-radius: 7px;
+    background-color: #ec2f2e; }
