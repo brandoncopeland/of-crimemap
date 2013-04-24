@@ -6,8 +6,9 @@
     'jquery': 'lib/jquery',
     'dojo': 'empty:',
     'dojox': 'empty:',
-    'dijit': 'empty:',
-    'esri': 'empty:',
+    'dijit': 'lib/dijit',
+    'esri': 'lib/esri',
+    'esri/dijit': 'empty:',
     'underscore': 'lib/underscore',
     'backbone': 'lib/backbone',
     'templates': '../templates',
@@ -34,7 +35,7 @@
       'text!config/appconfig.json'
     ]
   }],
-  removeCombined: false,
+  removeCombined: true,
   inlineText: true,
   optimize : 'uglify',
   optimizeCss: 'standard',
