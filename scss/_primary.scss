@@ -20,3 +20,37 @@ body {
 	background-color: rgba(187, 187, 187, 0.5);
 	@include retinabackground('../img/bg-map', 'png', 10px, 10px);
 }
+
+.esriPopup {
+	.title {
+		padding: 4px;
+	}
+	.contentPane {
+		p {
+			margin-top: 3px;
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		div {
+			margin-top: 8px;
+			h3 {
+				font-size: 1em;
+				text-decoration: underline;
+			}
+			a {
+				text-decoration: none;
+				color: #3366ff;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+			ul {
+				@include list-unpadded;
+				li {
+					margin-top: 3px;
+				}
+			}
+		}
+	}
+}

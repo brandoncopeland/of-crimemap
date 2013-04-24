@@ -352,3 +352,26 @@ body {
     #bigmap {
       background-image: url("../img/bg-map_@2X.png");
       -webkit-background-size: 10px 10px; } }
+
+.esriPopup .title {
+  padding: 4px; }
+.esriPopup .contentPane p {
+  margin-top: 3px; }
+  .esriPopup .contentPane p:first-child {
+    margin-top: 0; }
+.esriPopup .contentPane div {
+  margin-top: 8px; }
+  .esriPopup .contentPane div h3 {
+    font-size: 1em;
+    text-decoration: underline; }
+  .esriPopup .contentPane div a {
+    text-decoration: none;
+    color: #3366ff; }
+    .esriPopup .contentPane div a:hover {
+      text-decoration: underline; }
+  .esriPopup .contentPane div ul {
+    list-style: none;
+    list-style-image: none;
+    padding: 0; }
+    .esriPopup .contentPane div ul li {
+      margin-top: 3px; }

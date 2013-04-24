@@ -1,0 +1,30 @@
+<p><%= type %></p>
+<p><%= time %></p>
+<% if (personDescription) { %>
+<div>
+	<h3>Description of Suspect</h3>
+	<p><%= personDescription %></p>
+</div>
+<% } %>
+<% if (vehicleDescription) { %>
+<div>
+	<h3>Description of Vehicle</h3>
+	<p><%= vehicleDescription %></p>
+</div>
+<% } %>
+<% if (notes) { %>
+<div>
+	<h3>Additional Notes</h3>
+	<p><%= notes %></p>
+</div>
+<% } %>
+<% if (links) { %>
+<div>
+	<h3>More Information</h3>
+	<ul>
+		<% _.each(links, function (link) { %>
+			<li><a href="<%= link.url %>" target="_blank"><%= link.description %></a></li>
+		<% }) %>
+	</ul>
+</div>
+<% } %>
