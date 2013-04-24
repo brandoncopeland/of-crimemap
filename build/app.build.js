@@ -27,6 +27,9 @@
   },
   modules: [{
     name: 'app',
+    exclude: [
+      'text'
+    ],
     excludeShallow: [
       'text!config/appconfig.json'
     ]
