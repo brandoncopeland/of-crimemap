@@ -1,10 +1,10 @@
 {
 	"basemap": "gray",
 	"initialExtent": {
-		"xmin": -95.495,
-		"ymin": 29.817,
-		"xmax": -95.424,
-		"ymax": 29.840,
+		"xmin": -95.472659,
+		"ymin": 29.819153,
+		"xmax": -95.429426,
+		"ymax": 29.840425,
 		"spatialReference": {
 			"wkid": 4326
 		}

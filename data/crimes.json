@@ -6,13 +6,13 @@
 	},
 	"time": "2013-04-20T02:05Z",
 	"type": "Driveway Robbery",
-	"gunInvolved": false,
+	"gunInvolved": true,
 	"personDescription": "Black male, late 20s, 6' - 6'2, approx 170 lbs",
 	"vehicleDescription": "Early '90s/late 2000's black sedan (Honda or Acura) with low muffler",
 	"notes": "Robber first asked for directions in the driveway and then approached victim with small gun demanding her wallet. The victim's boyfriend heard the noice and openned the front door. Perpetrator discharged gun and left in vehicle.",
 	"additionalLinks": [{
 		"url": "https://www.facebook.com/groups/201375163658/permalink/10151609258828659/",
-		"description": "Facebook post by the victim"
+		"description": "Facebook Post"
 	}]
 }, {
 	"location": {
@@ -23,9 +23,11 @@
 	"time": "2013-04-10T04:00Z",
 	"type": "Driveway Robbery",
 	"gunInvolved": true,
-	"personDescription": "",
-	"vehicleDescription": "",
+	"personDescription": "Young, black male",
+	"vehicleDescription": "Gray sedan",
 	"additionalLinks": [{
+		"url": "https://oakforestcom.nextdoor.com/news_feed/?post=1175328",
+		"description": "Nextdoor Post"
 	}]
 }, {
 	"location": {
@@ -35,11 +37,7 @@
 	},
 	"time": "2013-04-10T02:30Z",
 	"type": "Driveway Robbery",
-	"gunInvolved": true,
-	"personDescription": "",
-	"vehicleDescription": "",
-	"additionalLinks": [{
-	}]
+	"gunInvolved": true
 }, {
 	"location": {
 		"x": -95.436637,
@@ -48,11 +46,7 @@
 	},
 	"time": "2013-04-16T03:25Z",
 	"type": "Driveway Robbery",
-	"gunInvolved": true,
-	"personDescription": "",
-	"vehicleDescription": "",
-	"additionalLinks": [{
-	}]
+	"gunInvolved": true
 }, {
 	"location": {
 		"x": -95.449089,
@@ -62,9 +56,11 @@
 	"time": "2013-04-06T03:05Z",
 	"type": "Driveway Robbery",
 	"gunInvolved": true,
-	"personDescription": "",
-	"vehicleDescription": "",
+	"personDescription": "Black male, 20 - 22 yrs, 5'8 - 5'9, approx 160 lbs",
+	"vehicleDescription": "Victim was approached in their driveway by a man with a pistol demanding money",
 	"additionalLinks": [{
+		"url": "by Nora under map post",
+		"description": "Mentioned in Comments of Facebook Post"
 	}]
 }, {
 	"location": {
@@ -74,11 +70,7 @@
 	},
 	"time": "2013-04-07T04:09Z",
 	"type": "Store Robbery",
-	"gunInvolved": true,
-	"personDescription": "",
-	"vehicleDescription": "",
-	"additionalLinks": [{
-	}]
+	"gunInvolved": true
 }, {
 	"location": {
 		"x": -95.441864,
@@ -88,9 +80,12 @@
 	"time": "2013-04-06T04:45Z",
 	"type": "Driveway Robbery",
 	"gunInvolved": true,
-	"personDescription": "",
-	"vehicleDescription": "",
+	"personDescription": "Male, 20 - 25 yrs, bald",
+	"vehicleDescription": "White 4-door car",
+	"notes": "Couple was approached in their driveway by a man with a pistol threatening to shoot.",
 	"additionalLinks": [{
+		"url": "by Nora under map post",
+		"description": "Mentioned in Comments of Facebook Post"
 	}]
 }, {
 	"location": {
@@ -100,9 +95,7 @@
 	},
 	"time": "2013-04-11T00:40Z",
 	"type": "Driveway Robbery",
-	"gunInvolved": true,
-	"personDescription": "",
-	"vehicleDescription": ""
+	"gunInvolved": true
 }, {
 	"location": {
 		"x": -95.442976,
@@ -125,11 +118,107 @@
 	},
 	"time": "2013-04-19T02:00Z",
 	"type": "Home Burglary",
-	"personDescription": "",
-	"vehicleDescription": "",
 	"notes": "Burglars shot window with a BB gun, carefully cracked without setting off the glass break sensor, and unlocked window from the inside. Owner was out of town at the time.",
 	"additionalLinks": [{
 		"url": "https://www.facebook.com/groups/201375163658/permalink/10151611018073659/",
-		"description": "Facebook post by the victim"
+		"description": "Facebook Post"
+	}]
+}, {
+	"location": {
+		"x": -95.450023,
+		"y": 29.835433,
+		"description": "Glebe and Viking"
+	},
+	"time": "2013-04-23T10:00Z",
+	"type": "Home Burglary",
+	"notes": "Entered through back window. Took laptop.",
+	"additionalLinks": [{
+		"url": "Another Break-in at the corner of Glebe and Viking...",
+		"description": "Facebook Post"
+	}]
+}, {
+	"location": {
+		"x": -95.471316,
+		"y": 29.833948,
+		"description": "5300 Block of De Milo"
+	},
+	"time": "Night",
+	"type": "Car Break-in",
+	"notes": "Attempted to pry open passenger side vent window unsuccessfully and left.",
+	"additionalLinks": [{
+		"url": "Michael Duane Schumacher",
+		"description": "Facebook Post"
+	}]
+}, {
+	"location": {
+		"x": -94.46019,
+		"y": 29.830845,
+		"description": "4600 Block of Libbey"
+	},
+	"time": "2013-04-21T8:00Z",
+	"type": "Car Break-in",
+	"notes": "Entered car by breaking drive-side rear window.",
+	"additionalLinks": [{
+		"url": "Robin Babin",
+		"description": "Facebook Post"
+	}]
+}, {
+	"location": {
+		"x": -95.43343,
+		"y": 29.833684,
+		"description": "1300 Block of Cheshire"
+	},
+	"time": "2013-04-20T2:15Z",
+	"type": "Suspect Chase",
+	"personDescription": "4 people inside vehicle",
+	"vehicleDescripton": "Black Acura, dark tinted windows, chrome wheels",
+	"notes": "Vehicle followed homeowner into driveway, when owner reversed, and proceeded to follow suspect.",
+	"additionalLinks": [{
+		"url": "Ok...I am the person that was involved.. ",
+		"description": "Facebook Post"
+	}, {
+		"url": "https://oakforestcom.nextdoor.com/news_feed/?post=1227356",
+		"description": "Nextdoor Post"
+	}]
+}, {
+	"location": {
+		"x": -95.453771,
+		"y": 29.826693,
+		"description": "2300 Block of Hialeh"
+	},
+	"time": "Day",
+	"type": "Home Burglary",
+	"notes": "Suspect entered through back door, wrecked house, and destroyed alarm.",
+	"additionalLinks": [{
+		"url": "https://oakforestcom.nextdoor.com/news_feed/?post=1209938",
+		"description": "Nextdoor Post"
+	}]
+}, {
+	"location": {
+		"x": -95.464185,
+		"y": 29.823969,
+		"description": "5000 Block of Lamonte"
+	},
+	"time": "Day",
+	"type": "Home Burglary",
+	"personDescription": "Black or hispanic male, balla shades ;)",
+	"notes": "Suspect entered through back door and took laptop. Suspect photo taken from security camera.",
+	"additionalLinks": [{
+		"url": "https://oakforestcom.nextdoor.com/news_feed/?post=1208329",
+		"description": "Nextdoor Post"
+	}]
+}, {
+	"location": {
+		"x": -95.435797,
+		"y": 29.837195,
+		"description": "Oak Forest and Bethlehem"
+	},
+	"time": "2013-04-11T10:30Z",
+	"type": "Driveway Robbery",
+	"personDescription": "Young, white male, dark hair",
+	"notes": "84 year old victim was in car parked on street, approached by suspect, and purse taken.",
+	"additionalLinks": [{
+		"url": "https://oakforestcom.nextdoor.com/news_feed/?post=1182554",
+		"description": "Nextdoor Post"
 	}]
 }]
